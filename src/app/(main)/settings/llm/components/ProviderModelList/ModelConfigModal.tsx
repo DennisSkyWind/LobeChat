@@ -66,6 +66,7 @@ const ModelConfigModal = memo<ModelConfigModalProps>(({ showAzureDeployName, pro
           form={formInstance}
           initialValues={modelCard}
           labelCol={{ span: 4 }}
+          preserve={false}
           style={{ marginTop: 16 }}
           wrapperCol={{ offset: 1, span: 18 }}
         >
