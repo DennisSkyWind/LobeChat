@@ -15,6 +15,10 @@ export const getBrowser = () => {
   return getParser().getResult().browser.name;
 };
 
+export const getEngine = () => {
+  return getParser().getEngine().name;
+}
+
 export const browserInfo = {
   browser: getBrowser(),
   isMobile: getParser().getDevice().type === 'mobile',
